@@ -29,4 +29,4 @@ if __name__ == "__main__":
     print("Preprocessing Dataset Complete")
 
     # Menyimpan preprocessed dataset dengan format csv
-    processed_df.to_csv("mushrooms_preprocessed.csv", index=False)
+    processed_df.to_csv("preprocessing/mushrooms_preprocessed.csv", index=False)

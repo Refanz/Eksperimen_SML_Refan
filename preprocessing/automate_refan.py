@@ -26,7 +26,7 @@ if __name__ == "__main__":
     raw_dataset_path = "mushrooms_raw.csv"
     processed_df = preprocessing_data(raw_dataset_path)
 
-    print("Preprocessing Complete")
+    print("Preprocessing Dataset Complete")
 
     # Menyimpan preprocessed dataset dengan format csv
     processed_df.to_csv("mushrooms_preprocessed.csv", index=False)

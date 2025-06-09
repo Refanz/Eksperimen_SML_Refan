@@ -23,7 +23,7 @@ def preprocessing_data(dataset_raw_path):
     return mushroom_scaler_df
 
 if __name__ == "__main__":
-    raw_dataset_path = "../mushrooms_raw.csv"
+    raw_dataset_path = "mushrooms_raw.csv"
     processed_df = preprocessing_data(raw_dataset_path)
 
     print("Preprocessing Complete")
